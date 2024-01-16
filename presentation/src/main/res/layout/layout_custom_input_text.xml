@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@{statusMassage.text.length()==0?36:0}">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/inputTextLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
+            android:background="@drawable/input_background_deactivate">
+
+            <EditText
+                android:id="@+id/inputText"
+                style="@style/inputText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:cursorVisible="true"
+                android:gravity="left|center"
+                android:isScrollContainer="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/inputTextClose"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/inputTextLabel"
+                tools:ignore="Autofill,LabelFor,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,VisualLintTextFieldSize"
+                tools:text="test" />
+
+            <ImageView
+                android:id="@+id/inputTextClose"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:layout_marginEnd="16dp"
+                android:scaleType="centerInside"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_close"
+                tools:visibility="visible"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/inputTextLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="bottom|left"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/headingText"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@+id/inputText"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="TextContrastCheck"
+                tools:text="test"
+                tools:visibility="visible" />
+
+
+            <ImageView
+                android:id="@+id/inputTextIcon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:scaleType="center"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginBottom="@dimen/common_margin"
+                android:layout_marginEnd="@dimen/common_margin"
+                app:tint="@color/black"
+                android:padding="@dimen/_8sdp"
+                tools:srcCompat="@drawable/ic_profile"
+                tools:ignore="ContentDescription" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/statusMassage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="bottom"
+            android:textSize="@dimen/headingText"
+            android:visibility="@{statusMassage.text.length()==0? View.GONE:View.VISIBLE}"
+            tools:text="test" />
+    </LinearLayout>
+
+</layout>

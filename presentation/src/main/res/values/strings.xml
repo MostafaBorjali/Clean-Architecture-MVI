@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Clean Architecture</string>
+    <string name="internet_connection_error">No Internet Connected!</string>
+    <string name="login_password">Password</string>
+    <string name="login_email">Email</string>
+    <string name="forget_password">Forgot Password?</string>
+    <string name="forget_password_button_text">Send</string>
+    <string name="error_empty_email">Email is Empty </string>
+    <string name="error_structure_email">Enter Valid Email </string>
+    <string name="error_password_empty">Password is Empty </string>
+    <string name="error_password_length">Password must be longer than 5 characters</string>
+    <string name="open_gallery_image_type">image/*</string>
+    <string name="extension_jpg">.jpg</string>
+    <string name="file_provider_package">com.borjali.android.provider</string>
+    <string name="reset">Reset</string>
+    <string name="time_pattern">yyyy-MM-dd\'T\'HH:mm:ss.SSSZ</string>
+    <string name="login">LogIn</string>
+    <string name="image_description">Image_Description</string>
+    <string name="search_product_hint">Search Order Number</string>
+    <string name="filter_label">Filter</string>
+    <string name="search_full_name_hint">Search Full Name</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="show_log">Show Log</string>
+    <string name="logout">Logout</string>
+    <string name="work_log_started">Work Log Started!</string>
+    <string name="work_log_update">Work Log Updated Successfully!</string>
+    <string name="zero_time">00:00</string>
+    <string name="remaining">Remaining</string>
+    <string name="retry">Retry</string>
+    <string name="internt_description">Please Check Your Internet Connection</string>
+    <string name="no_internet_title">No Internet Connection!</string>
+    <string name="select_order">Select Order</string>
+    <string name="are_you_sure_to_logout">Are you sure to logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="production_value">Production Value</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="there_is_no_any_data">There is no data</string>
+    <string name="order_count_title">Orders</string>
+    <string name="post_production">Post Production</string>
+    <string name="during_production">Production</string>
+    <string name="pre_production">Pre Production</string>
+    <string name="start">Start</string>
+
+
+    <!--////////Array////////////////////////////////////////////////////////////////////////////-->
+</resources>

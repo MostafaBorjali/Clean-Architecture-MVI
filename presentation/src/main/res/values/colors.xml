@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0561D2</color>
+    <color name="colorPrimaryVariant">#083387</color>
+    <color name="colorOnPrimary">#0D1B0D</color>
+    <color name="colorSecondary">#FFDB00</color>
+    <color name="secondary_dark">#EECD01</color>
+    <color name="colorSecondaryVariant">#FDD900</color>
+    <color name="colorOrange">#FFC925</color>
+    <color name="colorOnSecondary">#0D1B0D</color>
+
+
+
+    <color name="background">#F5F5F5</color>
+    <color name="green_secondary">#7FC096</color>
+    <color name="green_secondary_1">#957FC096</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#F5953F</color>
+    <color name="primary_5">#012050</color>
+    <color name="primary_4">#083387</color>
+    <color name="primary_3">#0561D2</color>
+    <color name="primary_2">#A1BADA</color>
+    <color name="primary_1">#FAFCFF</color>
+    <color name="secondary_1">#FFFDF1</color>
+    <color name="secondary_2">#FFF8CE</color>
+    <color name="secondary_3">#FFF099</color>
+    <color name="secondary_4">#FFE861</color>
+    <color name="gray">#A0A3BD</color>
+    <color name="gray_0">#DCE6F0</color>
+    <color name="gray_1">#FCFCFC</color>
+    <color name="gray_2">#EFF0F6</color>
+    <color name="gray_3">#D9DBE8</color>
+    <color name="gray_4">#A1A3B6</color>
+    <color name="gray_5">#4E4B66</color>
+    <color name="success_1">#F5FFF0</color>
+    <color name="success_2">#BEDBB0</color>
+    <color name="success_3">#6DA653</color>
+    <color name="success_4">#309600</color>
+    <color name="success_5">#247000</color>
+    <color name="warning_1">#FFFAFA</color>
+    <color name="warning_2">#F1BAB7</color>
+    <color name="warning_3">#E90500</color>
+    <color name="warning_4">#CD0000</color>
+    <color name="warning_5">#B10300</color>
+    <color name="transparent">#00000000</color>
+</resources>

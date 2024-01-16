@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="editTextPaddingH">8dp</dimen>
+    <dimen name="editTextPaddingV">6dp</dimen>
+    <dimen name="spinnerPaddingV">4dp</dimen>
+    <dimen name="spinnerPaddingH">4dp</dimen>
+    <dimen name="smallText">10sp</dimen>
+    <dimen name="tinyText">8sp</dimen>
+    <dimen name="headingText">14sp</dimen>
+    <dimen name="text_button">18sp</dimen>
+    <dimen name="normalText">12sp</dimen>
+    <dimen name="largeText">16sp</dimen>
+    <dimen name="_8sdp">8sp</dimen>
+    <dimen name="_16sdp">16sp</dimen>
+    <dimen name="_4sdp">4sp</dimen>
+    <dimen name ="list_divider_height">1px</dimen>
+    <dimen name="common_margin">16dp</dimen>
+    <dimen name="common_height">48dp</dimen>
+    <dimen name="thumbnail_height">48dp</dimen>
+    <dimen name="thumbnail_width">96dp</dimen>
+    <dimen name="half_margin">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="medium_margin">24dp</dimen>
+    <dimen name="double_margin">32dp</dimen>
+    <dimen name="button_height">45dp</dimen>
+    <dimen name="image_corner">24dp</dimen>
+
+    <dimen name="button_size_shutter">100dp</dimen>
+    <dimen name="button_size_big">56dp</dimen>
+    <dimen name="button_size_small">36dp</dimen>
+    <dimen name="count_down_text_size">72sp</dimen>
+    <dimen name="button_radius">10dp</dimen>
+
+    <dimen name="ten_dp">10dp</dimen>
+    <dimen name="single_and_half_margin">24dp</dimen>
+    <dimen name="triple_margin">48dp</dimen>
+    <dimen name="single_margin">16dp</dimen>
+</resources>

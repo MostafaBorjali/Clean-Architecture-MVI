@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Biozoon</string>
+    <string name="internet_connection_error">keine Internetverbindung!</string>
+    <string name="login_password">Kennwort</string>
+    <string name="login_email">Emailadresse</string>
+    <string name="remaining">verblieben</string>
+    <string name="retry">wiederholen</string>
+    <string name="internt_description">Bitte überprüfe deine Internetverbindung</string>
+    <string name="no_internet_title">keine Internetverbindung!</string>
+    <string name="select_order">Bestellung Auswählen</string>
+    <string name="forget_password">Passwort Vergessen?</string>
+    <string name="forget_password_button_text">Schicken</string>
+    <string name="error_empty_email">E-Mail ist leer</string>
+    <string name="error_structure_email">Geben Sie eine gültige E-Mail-Adresse ein</string>
+    <string name="error_password_empty">Passwort ist leer</string>
+    <string name="error_password_length">Das Passwort muss länger als 5 Zeichen sein</string>
+    <string name="open_gallery_image_type">image/*</string>
+    <string name="extension_jpg">.jpg</string>
+    <string name="file_provider_package">com.borjali.android.provider</string>
+    <string name="reset">zurücksetzen</string>
+    <string name="time_pattern">yyyy-MM-dd\'T\'HH:mm:ss.SSSZ</string>
+    <string name="login">Anmeldung</string>
+    <string name="image_description">Image_Description</string>
+    <string name="search_product_hint">Bestellnummer suchen</string>
+    <string name="filter_label">Filter</string>
+    <string name="search_full_name_hint">Vollständigen Namen Suchen</string>
+    <string name="edit_profile">Profil Bearbeiten</string>
+    <string name="show_log">Protokoll Anzeigen</string>
+    <string name="logout">Ausloggen</string>
+    <string name="work_log_started">Arbeitsprotokoll Gestartet!</string>
+    <string name="work_log_update">Arbeitsprotokoll Erfolgreich Aktualisiert!</string>
+    <string name="zero_time">00:00</string>
+    <string name="are_you_sure_to_logout">Möchten Sie sich wirklich abmelden?</string>
+    <string name="yes">Ja</string>
+    <string name="no">NEIN</string>
+    <string name="production_value">Produktionswert</string>
+    <string name="done">Erledigt</string>
+    <string name="cancel">Schließen</string>
+    <string name="there_is_no_any_data">keine Daten Verfügbar</string>
+    <string name="order_count_title">Aufträge</string>
+    <string name="post_production">nach Produktion</string>
+    <string name="during_production">Produktion</string>
+    <string name="pre_production">Vorproduktion</string>
+    <string name="start">Start</string>
+</resources>
